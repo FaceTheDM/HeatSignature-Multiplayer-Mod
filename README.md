@@ -27,7 +27,7 @@ Full feature list and controls: **[PLAYERS.md](PLAYERS.md)**.
 - An internet connection the first time you install (to download the mod loader, see below).
 
 ## Install (both players)
-1. On this page, click **[Releases](../../releases)** (right-hand side), and under the newest release download
+1. On this page, click **[Releases](https://github.com/FaceTheDM/HeatSignature-Multiplayer-Mod/releases)** (right-hand side), and under the newest release download
    `HS_Coop-<version>.zip`. Don't use the green "Code" button: that is the source code, not the mod.
 2. Unzip it: right-click the zip, choose **Extract All**, and open the extracted folder. Don't run anything from inside
    the zip.
@@ -108,7 +108,7 @@ again.
 
 ## Reporting a bug
 Right after it happens, press **F8**, then **8**. That saves both players' logs and a screenshot into the
-`coop-reports` folder in the game folder. Open an [issue](../../issues) describing what you did and what you saw, and
+`coop-reports` folder in the game folder. Open an [issue](https://github.com/FaceTheDM/HeatSignature-Multiplayer-Mod/issues) describing what you did and what you saw, and
 attach the newest report folder (zipped). If the game crashed, attach the newest file from `coop-logs` instead.
 Lobby codes and IP addresses are masked in the logs. The screenshot in a report can still show a lobby code, so crop
 it if you were hosting.
