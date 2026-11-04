@@ -1,0 +1,30 @@
+# Fetched by setup_build.py
+vendor/
+tools/
+
+# Build output
+build/
+dist/
+src/HandleVars.h
+__pycache__/
+*.dll
+*.exe
+*.pdb
+*.obj
+*.sig
+*.log
+
+# Never commit keys, local configs, saves or game files
+*.pem
+*.key
+coop.ini
+coop-*.txt
+coop-reports/
+coop-logs/
+*.coop-backup-*
+coop-galaxy.zip
+Heat_Signature*
+*.win
+.env
+.claude/
+CLAUDE.md

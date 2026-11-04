@@ -1,0 +1,51 @@
+HEAT SIGNATURE CO-OP MOD (HS_Coop)
+==================================
+
+Two players, each on their own PC, each with their own copy of Heat Signature on Steam.
+Both players must install this same package.
+
+INSTALL
+  1. Unzip the whole zip file somewhere (do not run it from inside the zip).
+  2. Close Heat Signature.
+  3. Double-click Install.bat.
+     Windows may show "Windows protected your PC": click "More info", then "Run anyway".
+     The installer finds the game through Steam, downloads the Heat Signature Mod Loader from
+     its author's GitHub page (checking it is the right file), and puts it and the mod in the
+     game folder.
+
+PLAY TOGETHER
+  1. Both start Heat Signature from Steam as usual and pick a character (not the same one).
+  2. HOST: press Escape, then F5. A lobby code appears at the bottom left of the screen and is
+     copied for you. Send it to your partner (Discord, Steam chat, anything).
+  3. PARTNER: copy the code, press Escape, then F6. If nothing was copied, type the code
+     (or press Ctrl+V) and press Enter.
+  4. The partner is brought to the host's station. The first time, the partner's game may
+     download the host's galaxy and ask for one restart: restart, then enter the code again
+     (F6 offers the last code).
+
+  WITHOUT A CODE: once the host has pressed F5, the host can also invite the partner in
+  Steam (friends list, right-click the friend, "Invite to Game"), or the partner can
+  right-click the host and choose "Join Game". Accepting joins as soon as the partner is
+  in the game with a character picked. If the partner's game is closed, Steam starts it.
+
+  The connection goes through Steam, so no addresses or router settings are needed.
+  If it does not connect, the host can press F6 while hosting to get an IP-address code
+  instead (see PLAYERS.md).
+
+  F8 opens the co-op menu during play (join your partner, call them to you, and more).
+
+REMOVE
+  Double-click Uninstall.bat. For a solo session you do not need to remove anything:
+  the mod does nothing until you host or join.
+
+UPDATES
+  The mod does not update itself. When there is a new version, both players download the
+  new zip and run Install.bat again. Both must always use the same zip.
+
+MORE
+  PLAYERS.md is the full guide. The "advanced" folder is only for fixed setups (coop.ini).
+
+CREDITS
+  The Heat Signature Mod Loader (d3d9.dll, ModLoader.dll) is by piepieonline
+  (https://github.com/piepieonline/HeatSignatureModLoader), licensed CC BY-NC 4.0.
+  The installer downloads it unmodified from that page. This mod is free: not for sale.
